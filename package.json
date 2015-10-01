@@ -1,6 +1,6 @@
 {
   "name": "graphql-type-factory",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Additional GraphQL types",
   "main": "index.js",
   "scripts": {
