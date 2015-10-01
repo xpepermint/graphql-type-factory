@@ -1,9 +1,10 @@
 {
   "name": "graphql-type-factory",
   "version": "0.0.1",
-  "description": "Additional GraphQL types (e.g. EmailType, URLType).",
+  "description": "Additional GraphQL types",
   "main": "index.js",
   "scripts": {
+    "example": "node ./example/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/xpepermint/graphql-type-factory/issues"
   },
-  "homepage": "https://github.com/xpepermint/graphql-type-factory#readme"
+  "homepage": "https://github.com/xpepermint/graphql-type-factory#readme",
+  "devDependencies": {
+    "express-graphql": "^0.4.0",
+    "graphql": "^0.4.5"
+  }
 }
