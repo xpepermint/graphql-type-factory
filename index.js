@@ -5,6 +5,7 @@ var Kind = require('graphql/language').Kind;
 var GraphQLStringFactory = function(attrs) {
   return new GraphQLScalarType({
     name: attrs.name,
+    description: attrs.description,
     serialize: function(value) {
       return value;
     },
